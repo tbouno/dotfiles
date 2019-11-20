@@ -32,13 +32,3 @@ $ curl -O https://raw.githubusercontent.com/Arc0re/Iceberg-iTerm2/master/iceberg
 
 - https://developer.apple.com/download/more/?=xcode
 - https://en.wikipedia.org/wiki/Xcode
-
-### nvm
-```
-$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | zsh
-$ nvm --version
-$ nvm ls-remote
-$ nvm install v12.3.1
-$ npm -v
-$ node -v
-```
