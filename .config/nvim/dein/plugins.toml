@@ -1,0 +1,17 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+repo = 'itchyny/lightline.vim'
+hook_add = '''
+    let g:lightline = {'colorscheme': 'molokai'}
+'''
+
+[[plugins]]
+repo = 'tomasr/molokai'
+
+# Toml
+[[plugins]]
+repo  = 'cespare/vim-toml'
+
+# Golang
+[[plugins]]
+repo = 'fatih/vim-go'
