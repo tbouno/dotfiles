@@ -6,6 +6,9 @@
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 $ brew install tree
 $ brew install zplug
+$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | zsh
+$ nvm install v12.3.1
+$ npm install --global pure-prompt
 ```
 
 ### neovim使用する前に
