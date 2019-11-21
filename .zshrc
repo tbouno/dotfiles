@@ -19,6 +19,8 @@ zplug "junegunn/fzf", as:command, use:bin/fzf-tmux
 zplug "supercrabtree/k"
 zplug "junegunn/fzf", use:shell/key-bindings.zsh
 zplug "junegunn/fzf", use:shell/completion.zsh
+zplug "hschne/fzf-git"
+zplug "greymd/docker-zsh-completion"
 zplug "b4b4r07/enhancd", use:init.sh
 zplug "paulirish/git-open", as:plugin
 zplug "zsh-users/zsh-syntax-highlighting", defer:2
