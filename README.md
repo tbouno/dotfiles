@@ -1,4 +1,4 @@
-# terminal
+# dotfiles
 
 ## 事前準備 
 ### zsh使用する前に
