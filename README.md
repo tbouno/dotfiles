@@ -1,19 +1,11 @@
 # dotfiles
 
-## 事前準備 
-### zsh使用する前に
+## セットアップ 
 ```
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-$ brew install tree
-$ brew install zplug
-$ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | zsh
-$ source ~/.zshrc
+$ brew bundle --file ~/dotfiles/brewfile
 $ nvm install v12.3.1
 $ npm install --global pure-prompt
-```
-
-### neovim使用する前に
-```
 $ brew install neovim
 $ brew install python3
 $ pip3 install -U neovim
