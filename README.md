@@ -1,13 +1,13 @@
 # dotfiles
 
 ## セットアップ 
+`brew bundle`コマンドを実行する前にAppStoreへログインしておく
 ```
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 $ brew bundle --file ~/dotfiles/brewfile
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh | zsh
 $ nvm install v12.3.1
 $ npm install --global pure-prompt
-$ brew install neovim
-$ brew install python3
 $ pip3 install -U neovim
 ```
 
