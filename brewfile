@@ -18,6 +18,7 @@ brew "tcptraceroute"
 brew "tfenv"
 brew "tree"
 brew "zplug"
+brew "neovim"
 
 cask "1password"
 cask "alfred"
@@ -31,7 +32,9 @@ cask "karabiner-elements"
 cask "keyboardcleantool"
 cask "mysqlworkbench"
 cask "visual-studio-code"
+cask "clickup"
 
 #mas "BetterSnapTool", id: 417375580
 mas "Slack", id: 803453959
 mas "The Unarchiver", id: 425424353
+
