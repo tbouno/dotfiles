@@ -12,6 +12,8 @@ zplug 'zsh-users/zsh-completions'
 zplug 'zsh-users/zsh-syntax-highlighting'
 zplug "mollifier/anyframe"
 zplug "mollifier/cd-gitroot"
+zplug "plugins/git", from:oh-my-zsh
+zplug "peterhurford/git-aliases.zsh"
 # zplug "b4b4r07/enhancd", use:enhancd.sh
 zplug "zsh-users/zsh-history-substring-search", defer:2
 zplug "junegunn/fzf-bin", as:command, from:gh-r, rename-to:fzf
@@ -49,3 +51,4 @@ export NVM_DIR="/Users/mc00372/.nvm"
 
 alias ls='ls -G'
 alias vi=nvim
+[ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
