@@ -5,12 +5,14 @@
 ```
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 $ brew bundle --file ~/dotfiles/brewfile
-$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh | zsh
 $ cp -p ~/dotfiles/.zshrc .zshrc
-$ cp -pR ~/dotfiles/.confg/ .config/
-$ nvm install v12.3.1
+$ cp -pR ~/dotfiles/.config/ .config/
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | zsh
+$ nvm ls-remote
+$ nvm install v16.15.0
 $ npm install --global pure-prompt
 $ pip3 install -U neovim
+$ . ~/dotfiles/vsc-extension_list.sh
 ```
 
 ## その他
