@@ -4,6 +4,7 @@ tap "hashicorp/tap"
 tap "weaveworks/tap"
 cask_args appdir: "/Applications"
 
+brew "awscli"
 brew "aws-sam-cli"
 brew "velero"
 brew "eksctl"
@@ -33,6 +34,7 @@ cask "keyboardcleantool"
 cask "mysqlworkbench"
 cask "visual-studio-code"
 cask "clickup"
+cask "google-cloud-sdk"
 
 #mas "BetterSnapTool", id: 417375580
 mas "Slack", id: 803453959
